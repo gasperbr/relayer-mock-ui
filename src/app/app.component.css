@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns:  repeat(auto-fill, minmax(100px, 350px));
+  max-width: min(800px, 90vw);
+  margin: auto;
+}
+.grid-col-a,
+.grid-col-b {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+input {
+  min-height: 1rem;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
